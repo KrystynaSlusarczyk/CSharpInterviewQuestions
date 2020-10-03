@@ -6,7 +6,7 @@ namespace CSharpInterviewQuestions
     {
         static void Main(string[] args)
         {
-            ClassVsStruct.Run();
+            ValueTypesVsReferenceTypes.Run();
         }
     }
 }

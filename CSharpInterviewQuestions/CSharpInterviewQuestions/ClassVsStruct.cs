@@ -12,6 +12,8 @@ namespace CSharpInterviewQuestions
             AddAge(personStruct);
             AddAge(personClass);
 
+            Console.WriteLine($"The person from the struct is {personStruct.Age} years old.");
+            Console.WriteLine($"The person from the class is {personClass.Age} years old.");
             Console.ReadKey();
         }
 
