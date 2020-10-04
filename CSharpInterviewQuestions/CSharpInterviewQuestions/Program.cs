@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Reflection;
 
 namespace CSharpInterviewQuestions
 {
@@ -6,7 +8,8 @@ namespace CSharpInterviewQuestions
     {
         static void Main(string[] args)
         {
-            ValueTypesVsReferenceTypes.Run();
+            RefAndOut.Run();
+            Console.ReadLine();
         }
     }
 }
