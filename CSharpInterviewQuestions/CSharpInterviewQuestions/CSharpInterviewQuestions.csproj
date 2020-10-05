@@ -54,6 +54,7 @@
     <Compile Include="RefAndOut.cs" />
     <Compile Include="SealedClasses.cs" />
     <Compile Include="ConstVsReadonly.cs" />
+    <Compile Include="Testability.cs" />
     <Compile Include="UsingKeyword.cs" />
     <Compile Include="ValueTypesVsReferenceTypes.cs" />
   </ItemGroup>
