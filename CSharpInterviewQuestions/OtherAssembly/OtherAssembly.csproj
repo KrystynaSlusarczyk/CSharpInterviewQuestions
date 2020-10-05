@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6A2A8849-DBBF-4DF1-AC11-2829933FC61B}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>CSharpInterviewQuestions</RootNamespace>
-    <AssemblyName>CSharpInterviewQuestions</AssemblyName>
+    <ProjectGuid>{8D089A87-97A6-43E3-952A-7751D77CDE88}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OtherAssembly</RootNamespace>
+    <AssemblyName>OtherAssembly</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,22 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccessModifiers.cs" />
-    <Compile Include="ClassVsStruct.cs" />
-    <Compile Include="ExtensionMethods.cs" />
-    <Compile Include="InterfaceVsAbstractClass.cs" />
-    <Compile Include="IsVsAs.cs" />
-    <Compile Include="Others\HelloWriter1.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="ClassesInOtherAssembly.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RefAndOut.cs" />
-    <Compile Include="SealedClasses.cs" />
-    <Compile Include="ConstVsReadonly.cs" />
-    <Compile Include="UsingKeyword.cs" />
-    <Compile Include="ValueTypesVsReferenceTypes.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <ProjectReference Include="..\CSharpInterviewQuestions\CSharpInterviewQuestions.csproj">
+      <Project>{6A2A8849-DBBF-4DF1-AC11-2829933FC61B}</Project>
+      <Name>CSharpInterviewQuestions</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
