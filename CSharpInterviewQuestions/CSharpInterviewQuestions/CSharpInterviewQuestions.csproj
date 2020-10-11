@@ -48,6 +48,7 @@
     <Compile Include="ExtensionMethods.cs" />
     <Compile Include="InterfaceVsAbstractClass.cs" />
     <Compile Include="IsVsAs.cs" />
+    <Compile Include="Mocking.cs" />
     <Compile Include="Others\HelloWriter1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
