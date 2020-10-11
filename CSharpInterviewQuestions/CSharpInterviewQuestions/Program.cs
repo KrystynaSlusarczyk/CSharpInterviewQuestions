@@ -6,7 +6,7 @@ namespace CSharpInterviewQuestions
     {
         static void Main(string[] args)
         {
-            UsingKeyword.Run();
+            VirtualMethods.Run();
             Console.ReadLine();
         }
     }

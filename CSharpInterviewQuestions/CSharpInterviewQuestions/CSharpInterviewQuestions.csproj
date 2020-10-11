@@ -58,6 +58,7 @@
     <Compile Include="Testability.cs" />
     <Compile Include="UsingKeyword.cs" />
     <Compile Include="ValueTypesVsReferenceTypes.cs" />
+    <Compile Include="VirtualMethods.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
