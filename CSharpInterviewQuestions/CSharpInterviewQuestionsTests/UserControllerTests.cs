@@ -5,6 +5,7 @@ using System.Collections.Generic;
 
 namespace CSharpInterviewQuestionsTests
 {
+
     [TestFixture]
     public class UserControllerTests
     {

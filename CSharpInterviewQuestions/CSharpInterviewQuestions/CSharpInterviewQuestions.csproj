@@ -46,6 +46,7 @@
     <Compile Include="AccessModifiers.cs" />
     <Compile Include="ClassVsStruct.cs" />
     <Compile Include="ExtensionMethods.cs" />
+    <Compile Include="FIRSTPrinciples.cs" />
     <Compile Include="InterfaceVsAbstractClass.cs" />
     <Compile Include="IsVsAs.cs" />
     <Compile Include="Mocking.cs" />
